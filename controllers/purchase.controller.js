@@ -4,9 +4,9 @@ const { validatePurchase } = require('../validators/purchase.validation');
 const Investment = require('../models/investment');
 const Purchase = require('../models/purchase');
 const Tank = require('../models/tank');
-const Supplier = require('../models/Supplier');
-const StockTransaction = require('../models/StockTransaction');
-const PaymentTransaction = require('../models/PaymentTransaction');
+const Supplier = require('../models/supplier');
+const StockTransaction = require('../models/stockTransaction');
+const PaymentTransaction = require('../models/paymentTransaction');
 const fundBalance = require('../services/fundBalanceService');
 
 const getDropdownData = async(req, res) => {
