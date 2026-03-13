@@ -7,7 +7,7 @@ const Tank = require('../models/tank');
 const { User } = require('../models/user');
 const { OrderCounter } = require('../models/counter');
 const { getCustomerStats } = require('../services/customer.service.js');
-const PaymentTransaction = require('../models/PaymentTransaction');
+const PaymentTransaction = require('../models/paymentTransaction');
 const CommissionTransaction = require('../models/commissionTransaction');
 
 const getNextOrderNumber = async () => {
